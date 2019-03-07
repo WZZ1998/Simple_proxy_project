@@ -1,0 +1,5 @@
+The csapp.c and csapp.h is provided by the csapp course group.
+The io_mul.c, io_mul.h and my_proxy.c are the necessary source codes for the simple proxy to run.
+Other irrelated contents and functions are the requirements of CSAPP LAB course.
+Proxy:
+	usage: proxy <port> 
