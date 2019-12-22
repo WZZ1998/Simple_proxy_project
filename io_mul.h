@@ -1,6 +1,6 @@
 #define MAX_WORKBUF_SIZE 8192
 #define VIS_SIZE 500
-
+#include "csapp.h"
 /* Multi-I/O work pool */
 typedef struct {
     int maxfd;
