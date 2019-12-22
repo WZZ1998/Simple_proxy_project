@@ -6,8 +6,7 @@ my_proxy.c is a simple version with 4 states.
 my_proxy_fair.c provides a relatively fair schedule among clients.
 
 The event automata:
-![automata_simple_proxy_in_my_blog.png](https://714105382-personal-blog.oss-cn-zhangjiakou.aliyuncs.com/blog-11-03.png)
-
+<img src="https://714105382-personal-blog.oss-cn-zhangjiakou.aliyuncs.com/blog-11-03.png" alt="automata_simple_proxy_in_my_blog.png" style="zoom:50%;" />
 
 compile:
 	gcc -o proxy my_proxy.c io_mul.c csapp.c io_mul.h csapp.h -lpthread
